@@ -45,12 +45,43 @@ $(function(){
     </table>
   <body>
    
-<div id="accordion"></div>
-  <select class="form-control" id="select_area_master"></select>
-  <select class="form-control" id="select_area"></select>
-   
-   
-<hr>
+<style type="text/css">
+#accordion-group1{background-color:red;}
+#accordion-group2{background-color:blue;}
+</style>
+
+  <div class="accordion-group" id="accordion-group1">
+    <div class="accordion-heading"> 
+      <a class="accordion-toggle" style="height:200px" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        <div class="left-day"> </div>
+        <div class="accordion-table" ><p class="center">日本語</p></div>
+      </a>
+    </div>
+    <div id="collapse1" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <br />
+        <div class="targetDays"style="color:white;">ここに中身を書く</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group" id="accordion-group2">
+    <div class="accordion-heading"> 
+      <a class="accordion-toggle" style="height:200px" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        <div class="left-day"> </div>
+        <div class="accordion-table" ><p class="center">英語</p></div>
+      </a>
+    </div>
+    <div id="collapse2" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <br />
+        <div class="targetDays"style="color:white;">ここに中身を書く</div>
+      </div>
+    </div>
+  </div>
+
+
+
 
 <div class="accordion" id="accordion3">
      <div class="accordion-group-top">
